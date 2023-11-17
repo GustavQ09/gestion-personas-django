@@ -1,0 +1,97 @@
+/* Estilo para el body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Estilo para los divs que contienen los detalles de la persona */
+div {
+    font-size: 18px;
+    margin: 20px; /* Aumenta el espacio entre los detalles */
+}
+
+/* Estilo para el enlace de regreso */
+a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px; /* Aumenta el espacio entre el enlace y los detalles */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilo para el enlace de regreso al pasar el cursor */
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los campos de entrada de texto y correo */
+input[type="text"],
+input[type="email"] {
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0; /* Aumenta el espacio vertical entre los campos de entrada */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7; /* Cambia el fondo de los campos */
+}
+
+/* Estilo para los campos de entrada al pasar el cursor */
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #007BFF; /* Cambia el color del borde al enfocar el campo */
+    outline: none; /* Elimina el contorno al enfocar el campo (proporciona un enfoque más limpio) */
+    background-color: white; /* Restaura el fondo blanco al enfocar el campo */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.7); /* Agrega una sombra al enfocar el campo */
+}
+
+/* Estilo para los campos de entrada al pasar el cursor */
+input[type="text"]:hover,
+input[type="email"]:hover {
+    background-color: #f0f0f0; /* Cambia el fondo al pasar el cursor sobre el campo */
+}
+
+
+/* Estilo para la tabla del formulario */
+table {
+    width: 40%; /* Establece el ancho de la tabla al 60% del contenedor */
+    margin: 0 auto;
+    margin-top: 2em;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilo para el botón de envío */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de envío al pasar el cursor */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

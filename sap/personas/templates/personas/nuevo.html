@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nueva Persona</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/stylesDet.css' %}">
+</head>
+<body>
+<form method="POST">
+    <h1>Agregar Persona</h1>
+    <table>
+        {{formaPersona}}
+    </table>
+    <button type="submit">Enviar</button>
+    {% csrf_token %}
+</form>
+</body>
+</html>

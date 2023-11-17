@@ -1,0 +1,59 @@
+/* Estilo para el body */
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente del texto del cuerpo */
+    text-align: center; /* Centra el texto del cuerpo horizontalmente */
+    background-color: #f0f0f0; /* Cambia el color de fondo del cuerpo */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+div {
+    font-size: 18px;
+    margin: 15px; /* Aumenta el espacio entre los detalles */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 50%; /* Establece el ancho de la tabla al 80% del contenedor */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    margin-top: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra a la tabla */
+    background-color: white; /* Fondo blanco para la tabla */
+}
+
+/* Estilo para las celdas de la tabla */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para el botón "Agregar Persona" */
+.button-add {
+    background-color: #28a745; /* Fondo verde para el botón */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px; /* Espacio superior al botón */
+    border: none; /* Elimina el borde del botón */
+}
+
+/* Estilo para el botón "Agregar Persona" al pasar el cursor */
+.button-add:hover {
+    background-color: #218838; /* Cambia el color de fondo al pasar el cursor */
+}
